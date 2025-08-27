@@ -64,7 +64,7 @@ This toolkit provides the essential foundation. Future versions aim to build upo
 
 *   **Git Installation Check**: Verify that `git` is installed.
 *   **A Central Launcher**: A simple `launch.bat` to easily start any of your installed applications.
-*   **Many other usefull Packages required to run Diffusion frontends.
+*   Many other usefull Packages required to run Diffusion frontends.
 
 ## ❤️ Acknowledgements
 
