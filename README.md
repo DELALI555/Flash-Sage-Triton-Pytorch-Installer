@@ -33,6 +33,7 @@ Before you begin, ensure you have the following:
 2.  **Windows 10 or 11**: The script is built for modern Windows environments.
 3.  **Python 3.10 - 3.12**: You must have Python installed, and it must be added to your system's PATH during its installation. You can download it from the [official Python website](https://www.python.org/downloads/).
 4.  **An Internet Connection**: Required for downloading packages.
+5.  **Pre-Existing Venv**: If You have an existing venv where you would like to install and check, pleease change the name of the venv in the bat file.
 
 ## 🚀 How to Use
 
