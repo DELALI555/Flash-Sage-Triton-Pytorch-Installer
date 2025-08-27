@@ -1,5 +1,9 @@
 # Flash-Sage-Triton-Pytorch-Installer 🚀
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bliip-Studio/Flash-Sage-Triton-Pytorch-Installer/main/EasyInstall.png" alt="Win-AI-Toolkit Banner"/>
+</p>
+
 ---
 
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
