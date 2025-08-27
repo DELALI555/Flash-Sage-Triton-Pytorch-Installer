@@ -2,7 +2,7 @@
 setlocal
 
 :: ============================================================================
-:: AI Environment Setup Toolkit (v12.5 - Streamlined Flow)
+:: AI Environment Setup Toolkit (v1.1 - Streamlined Flow)
 :: ============================================================================
 :: This version improves the logic in Step 4 to avoid an unnecessary
 :: restart if the CUDA Toolkit is already installed, creating a smoother flow.
@@ -444,4 +444,5 @@ echo.
 
 del %PROGRESS_FILE%
 pause
+
 goto :EOF
