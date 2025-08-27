@@ -62,10 +62,9 @@ The toolkit will walk you through the following resumable steps:
 
 This toolkit provides the essential foundation. Future versions aim to build upon it with:
 
-*   **Git Installation Check**: Verify that `git` is installed, as it's required for most AI applications.
-*   **Application Installation Menu**: Add options to automatically `git clone` popular apps like ComfyUI, Fooocus, etc.
-*   **Centralized Model Management**: Create a shared folder for all AI models and automatically configure applications to use it.
+*   **Git Installation Check**: Verify that `git` is installed.
 *   **A Central Launcher**: A simple `launch.bat` to easily start any of your installed applications.
+*   **Many other usefull Packages required to run Diffusion frontends.
 
 ## ❤️ Acknowledgements
 
